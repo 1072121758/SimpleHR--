@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+build/
+.npm-cache/
+
+# 环境与私密配置
+.env
+config.local.*
+*.sqlite3
+*.db
+
+# 测试产物
+.pytest_cache/
+playwright-report/
+test-results/
+allure-results/
+*.log
+
+# 压测与录屏产物
+perf/result/*.html
+perf/result/*.csv
+tools/**/screenshots/
+tools/**/recordings/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
